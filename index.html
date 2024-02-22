@@ -15,6 +15,7 @@
       <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
       <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
       <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
     </div>
 
     <div class="carousel-inner">
@@ -48,6 +49,16 @@
           </h4>
         </div>
       </div>
+      <div class="carousel-item">
+      <a href="pages/news4.html">
+        <img src="images/news-4.jpg" class="d-block w-100" alt="...">
+      </a>
+      <div class="carousel-caption d-none d-md-block">
+        <h4>
+          На Новосибирск надвигается потепление
+        </h4>
+      </div>
+    </div>
     </div>
     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
       <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -66,8 +77,10 @@
       <h1 class="display-4 fst-italic text-center">Вести Сибири</h1>
     </div>
   </header>
+</div>
 
-  <div class="nav-scroller py-1 mb-3 border-bottom">
+<div class="container sticky-top">
+  <div class="nav-scroller bg-white py-1 mb-3 border-bottom">
     <nav class="nav nav-underline justify-content-between px-1">
       <a class="nav-item nav-link link-body-emphasis active" href="index.html">Главная страница</a>
       <a class="nav-item nav-link link-body-emphasis" href="pages/contacts.html">О нас</a>
@@ -75,25 +88,6 @@
     </nav>
   </div>
 </div>
-
-<!--<div class="container my-5">-->
-<!--  <nav aria-label="breadcrumb">-->
-<!--    <ol class="breadcrumb breadcrumb-custom overflow-hidden text-center rounded-3">-->
-<!--      <li class="breadcrumb-item active">-->
-<!--        <a class="link-body-emphasis fw-semibold text-decoration-none" href="#">-->
-<!--          <i class="bi bi-house"></i>-->
-<!--          Главная страница-->
-<!--        </a>-->
-<!--      </li>-->
-<!--      <li class="breadcrumb-item">-->
-<!--        <a class="link-body-emphasis fw-semibold text-decoration-none" href="#">Library</a>-->
-<!--      </li>-->
-<!--      <li class="breadcrumb-item active" aria-current="page">-->
-<!--        Data-->
-<!--      </li>-->
-<!--    </ol>-->
-<!--  </nav>-->
-<!--</div>-->
 
 <main class="container">
   <div class="p-4 p-md-5 mb-4 rounded-lg-5 rounded-3 text-body-emphasis bg-body-secondary">
@@ -113,44 +107,91 @@
         </li>
       </ol>
     </nav>
-    <div class="col-lg-6 px-0">
-      <h3 class="display-4 fst-italic">
-        Самые свежие новости Новосибрской области
-      </h3>
+    <div class="d-flex flex-row">
+      <div>
+        <h3 class="display-5 fst-italic">
+          Самые свежие новости Новосибрской области
+        </h3>
+      </div>
+      <div class="d-lg-flex d-none align-items-center">
+        <img src="icons/news-main.png" class="d-block w-100" alt="...">
+      </div>
     </div>
   </div>
 
-  <div class="row mb-2">
-    <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
-      <div class="col p-4 d-flex flex-column position-static">
-        <div class="mb-2 text-body-secondary">18/02/2024 16:58</div>
-        <img src="logos/pg1.jpg" class="rounded float-end img-thumbnail " alt="...">
-        <h3 class="mb-2">В Новосибирске открылась IKEA со всего мира</h3>
-        <p class="card-text mb-auto">Цены на товары взлетели в два раза.</p>
-        <a href="pages/news1.html" class="icon-link gap-1 icon-link-hover stretched-link">
+  <div class="d-grid banner-wrapper_two gap-3">
+    <div class="banner-flying row g-0 border rounded">
+      <div class="p-4 d-flex flex-column justify-content-between">
+        <div>
+          <div class="mb-2 text-body-secondary">18/02/2024 16:58</div>
+          <img src="logos/pg1.jpg" class="rounded float-end mb-2 img-thumbnail " alt="...">
+          <h3 class="mb-2">
+            В Новосибирске открылась IKEA со всего мира
+          </h3>
+          <p class="card-text mb-3">
+            Цены на товары взлетели в два раза.
+          </p>
+        </div>
+        <a href="pages/news1.html" class="btn btn-primary">
           Продолжить чтение
-          <svg class="bi">
-            <use xlink:href="#chevron-right"/>
-          </svg>
+          <i class="bi bi-chevron-right"></i>
         </a>
       </div>
     </div>
-    <!-- <div class="col-md-6">
-      <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
-        <div class="col p-4 d-flex flex-column position-static">
-         <h3 class="mb-0">Post title</h3>
-          <div class="mb-1 text-body-secondary">Nov 11</div>
-          <p class="mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
-          <a href="#" class="icon-link gap-1 icon-link-hover stretched-link">
-            Continue reading
-            <svg class="bi"><use xlink:href="#chevron-right"/></svg>
-          </a>
+    <div class="banner-flying row g-0 border rounded">
+      <div class="p-4 d-flex flex-column justify-content-between">
+        <div>
+          <div class="mb-2 text-body-secondary">17/02/2024 10:00</div>
+          <img src="logos/pg2.jpg" class="rounded float-end mb-2 img-thumbnail " alt="...">
+          <h3 class="mb-2">
+            60-этажный небоскрёб задумали построить на берегу Оби в Новосибирске
+          </h3>
+          <p class="card-text mb-3">
+            «Москва-Сити» по-сибирски. В Новосибирске решили построить громадный небоскрёб — кто решится на здание выше 150 метров
+          </p>
         </div>
-        <div class="col-auto d-none d-lg-block">
-          <svg class="bd-placeholder-img" width="200" height="250" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
-        </div>
+        <a href="pages/news1.html" class="btn btn-primary">
+          Продолжить чтение
+          <i class="bi bi-chevron-right"></i>
+        </a>
       </div>
-    </div> -->
+    </div>
+    <div class="banner-flying row g-0 border rounded">
+      <div class="p-4 d-flex flex-column justify-content-between">
+        <div>
+          <div class="mb-2 text-body-secondary">18/02/2024 09:00</div>
+          <img src="logos/pg3.jpg" class="rounded float-end mb-2 img-thumbnail " alt="...">
+          <h3 class="mb-2">
+            Рестораторы объяснили рост числа заведений грузинской кухни
+          </h3>
+          <p class="card-text mb-3">
+            За последние четыре месяца в городе начали работу два новых грузинских ресторана. На ближайшее время анонсировано открытие как минимум еще одного
+          </p>
+        </div>
+        <a href="pages/news1.html" class="btn btn-primary">
+          Продолжить чтение
+          <i class="bi bi-chevron-right"></i>
+        </a>
+      </div>
+    </div>
+    <div class="banner-flying row g-0 border rounded">
+      <div class="p-4 d-flex flex-column justify-content-between">
+        <div>
+          <div class="mb-2 text-body-secondary">17/02/2024 13:00</div>
+          <img src="logos/pg4.jpg" class="rounded float-end mb-2 img-thumbnail " alt="...">
+          <h3 class="mb-2">
+            На Новосибирск надвигается потепление
+          </h3>
+          <p class="card-text mb-3">
+            Уже в ближайшие дни новосибирцы заметят повышение температуры на несколько градусов. Окончательно морозы начнут ослабевать к концу месяца.
+          </p>
+        </div>
+        <a href="pages/news4.html" class="btn btn-primary">
+          Продолжить чтение
+          <i class="bi bi-chevron-right"></i>
+        </a>
+      </div>
+    </div>
   </div>
 </main>
 

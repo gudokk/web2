@@ -4,4 +4,20 @@
 h1, h2, h3, h4, h5, h6 {
  font-family: "Playfair Display", Georgia, "Times New Roman", serif
 }
- 
+
+.banner-wrapper_two {
+ grid-template-columns: 1fr;
+
+ @media (min-width: 768px) {
+  grid-template-columns: repeat(2, 1fr);
+ }
+}
+
+.banner-flying {
+ background-color: var(--bs-gray-100);
+}
+
+.banner-flying:hover {
+  background-color: var(--bs-white);
+  transition: box-shadow .3s ease-in-out;
+}
