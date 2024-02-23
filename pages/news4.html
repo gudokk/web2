@@ -1,77 +1,108 @@
 <!doctype html>
 <html lang="ru">
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Новости</title>
-    <link href="../style.css" rel="stylesheet">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Новости</title>
+  <link href="../logos/favicon.png" rel="icon">
+  <link href="../style.css" rel="stylesheet">
 </head>
 <body>
+
 <div class="container">
-    <header class="border-bottom lh-1 py-3">
-        <div class="row flex-nowrap justify-content-between align-items-center">
-            <h1 class="display-4 fst-italic text-center">Вести Сибири</h1>
-
-        </div>
-    </header>
-
-    <div class="nav-scroller py-1 mb-3 border-bottom">
-        <nav class="nav nav-underline justify-content-between">
-            <a class="nav-item nav-link link-body-emphasis active" href="../index.html">Главная страница</a>
-            <a class="nav-item nav-link link-body-emphasis" href="contacts.html">О нас</a>
-            <a class="nav-item nav-link link-body-emphasis" href="news.html">Новости</a>
-        </nav>
+  <header class="border-bottom lh-1 py-3">
+    <div class="row flex-nowrap justify-content-between align-items-center">
+      <h1 class="display-4 fst-italic text-center">Вести Сибири</h1>
     </div>
+  </header>
+</div>
+
+<div class="container sticky-top">
+  <div class="nav-scroller bg-white py-1 mb-3 border-bottom">
+    <nav class="nav nav-underline justify-content-between px-1">
+      <a class="nav-item nav-link link-body-emphasis" href="../index.html">Главная страница</a>
+      <a class="nav-item nav-link link-body-emphasis" href="news.html">Новости</a>
+      <a class="nav-item nav-link link-body-emphasis" href="contacts.html">Контакты</a>
+    </nav>
+  </div>
 </div>
 
 <main class="container">
-
-    <div class="row mb-2">
-        <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
-            <div class="col p-4 d-flex flex-column position-static">
-                <div class="mb-2 text-body-secondary">18/02/2024 16:58</div>
-                <h3 class="mb-2">В Новосибирске открылась IKEA со всего мира</h3>
-                <p class="card-text mb-auto">Цены на товары взлетели в два раза.</p>
-
-                <p>Открылась IKEA со всего мира в «Ленте» на Бердском шоссе.</p>
-
-                <p>По словам сотрудников, вся продукция на полках оригинальная, но привезенная из-за границы.</p>
-
-                <p><i>Сегодня — первый день, когда магазин начал свою работу,</i> — говорится в сообщении АСТ-54.</p>
-
-                <p>По сообщению паблика, цены на продукцию в магазине в два раза выше, чем были до закрытия в декабре.</p>
-
-                <p>Однако многих людей это не остановило, и они принялись узнавать адрес магазина в комментариях для последующей
-                    закупки.</p>
-
-                <p><i>— Подскажите адрес.</i></p>
-
-                <p><i>— Принципиально не пойду, зачем спонсировать эту компанию? Не хотят работать с русскими — всего
-                    хорошего!</i></p>
-
-                <p><i>— Надо обязательно сходить и что-нибудь прикупить.</i></p>
-
-                <p>Напомним, что IKEA в Новосибирске закрылась — 4 марта 2022 года.</p>
-
-                <p>Ранее редакция сообщала о том, что ни один экс-сотрудник новосибирской IKEA не стоит на бирже труда.</p>
-            </div>
-        </div>
-
-        <div class="p-2 p-md-6 mb-4 rounded text-body-emphasis bg-body-secondary">
-            <img src="../logos/pg1.jpg" class="img-fluid img-thumbnail " alt="...">
-        </div>
+  <div class="p-4 p-md-5 mb-4 rounded-lg-5 rounded-3 text-body-emphasis bg-body-secondary">
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb breadcrumb-custom overflow-hidden text-center rounded-3">
+        <li class="breadcrumb-item active">
+          <a class="link-body-emphasis fw-semibold text-decoration-none" href="../index.html">
+            <i class="bi bi-house"></i>
+            Главная страница
+          </a>
+        </li>
+        <li class="breadcrumb-item">
+          <a class="link-body-emphasis fw-semibold text-decoration-none" href="news.html">
+            Новости
+          </a>
+        </li>
+        <li class="breadcrumb-item active" aria-current="page">
+          Надвигается потепление
+        </li>
+      </ol>
+    </nav>
+    <div class="d-flex flex-row">
+      <div>
+        <h3 class="display-5 fst-italic">
+          Самые свежие новости Новосибрской области
+        </h3>
+      </div>
+      <div class="d-lg-flex d-none align-items-center">
+        <img src="../icons/news-main.png" class="d-block w-100" alt="...">
+      </div>
     </div>
+  </div>
+
+  <div class="row mb-2">
+    <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+      <div class="col p-4 d-flex flex-column position-static">
+        <div class="mb-2 w-fit-content p-1 rounded-3 text-body-secondary border">
+          18/02/2024 09:00
+        </div>
+
+        <h3 class="mb-2">На Новосибирск надвигается потепление</h3>
+
+        <p><i class="text-body-secondary">Воздух в городе прогреется до -12 градусов</i></p>
+
+        <img src="../images/news-4.jpg" class="d-block rounded-lg-5 rounded-3 mb-3 w-100" alt="...">
+
+        <p>
+          В Новосибирске в скором времени прогнозируется потепление. Воздух прогреется до -12 градусов, сообщает начальник отдела метеопрогнозов УГМС Наталья Кичанова.
+        </p>
+
+        <p>
+          Уточняется, что 23 февраля по области ожидается холодная погода: ночью температура опустится до отметки от -25 до -35 градусов, а днём поднимется до -13...-17 градусов.
+        </p>
+
+        <p>
+          По словам синоптика, погода постепенно переходит к весенней. С каждыми сутками мороз будет постепенно ослабевать на 1-3 градуса. В городе ожидается холодная погода без осадков: ночью от -28 до -30 градусов, днём до -15 градусов, при южном ветре со скоростью до 1,6 м/с. На следующий день, 24 февраля, температура ночью ожидается до -32 градусов, местами до -36, а днём воздух прогреется до -12 градусов.
+        </p>
+
+        <p class="mb-0">
+          Также отмечается, что в областном центре будет повышение температуры, ночью до -24 градусов, днём до -13. Наталья Кичанова предупредила, что к 28–29 февраля стоит ожидать существенного потепления.
+        </p>
+      </div>
+    </div>
+  </div>
 </main>
 
-<footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
-    <div class="col-md-4 d-flex align-items-center">
-        <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
-            <svg class="bi" width="30" height="24">
-                <use xlink:href="#bootstrap"/>
-            </svg>
-        </a>
-        <span class="mb-3 mb-md-0 text-body-secondary">&copy; 2024 NSTU</span>
+<footer class="py-2 mt-4 border-top">
+  <div class="d-flex container flex-column">
+    <div class="mb-2">
+      Сайт был создан с помощью фреймворка
     </div>
+    <div>
+      <a href="https://getbootstrap.com/" class="footer-logo text-black text-decoration-none">
+        <i class="bi bi-bootstrap-fill purple-color"></i> Bootstrap 5
+      </a>
+    </div>
+  </div>
 </footer>
 </body>
 </html>
