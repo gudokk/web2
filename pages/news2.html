@@ -1,10 +1,110 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="ru">
 <head>
-    <meta charset="UTF-8">
-    <title>Title</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Новости</title>
+  <link href="../logos/favicon.png" rel="icon">
+  <link href="../style.css" rel="stylesheet">
 </head>
 <body>
 
+<div class="container">
+  <header class="border-bottom lh-1 py-3">
+    <div class="row flex-nowrap justify-content-between align-items-center">
+      <h1 class="display-4 fst-italic text-center">Вести Сибири</h1>
+    </div>
+  </header>
+</div>
+
+<div class="container sticky-top">
+  <div class="nav-scroller bg-white py-1 mb-3 border-bottom">
+    <nav class="nav nav-underline justify-content-between px-1">
+      <a class="nav-item nav-link link-body-emphasis" href="../index.html">Главная страница</a>
+      <a class="nav-item nav-link link-body-emphasis" href="news.html">Новости</a>
+      <a class="nav-item nav-link link-body-emphasis" href="contacts.html">Контакты</a>
+    </nav>
+  </div>
+</div>
+
+<main class="container">
+  <div class="p-4 p-md-5 mb-4 rounded-lg-5 rounded-3 text-body-emphasis bg-body-secondary">
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb breadcrumb-custom overflow-hidden text-center rounded-3">
+        <li class="breadcrumb-item active">
+          <a class="link-body-emphasis fw-semibold text-decoration-none" href="../index.html">
+            <i class="bi bi-house"></i>
+            Главная страница
+          </a>
+        </li>
+        <li class="breadcrumb-item">
+          <a class="link-body-emphasis fw-semibold text-decoration-none" href="news.html">
+            Новости
+          </a>
+        </li>
+        <li class="breadcrumb-item active" aria-current="page">
+          60-этажный небоскрёб...
+        </li>
+      </ol>
+    </nav>
+    <div class="d-flex flex-row">
+      <div>
+        <h3 class="display-5 fst-italic">
+          Самые свежие новости Новосибрской области
+        </h3>
+      </div>
+      <div class="d-lg-flex d-none align-items-center">
+        <img src="../icons/news-main.png" class="d-block w-100" alt="...">
+      </div>
+    </div>
+  </div>
+
+  <div class="row mb-2">
+    <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+      <div class="col p-4 d-flex flex-column position-static">
+        <div class="mb-2 w-fit-content p-1 rounded-3 text-body-secondary border">
+          17/02/2024 10:00
+        </div>
+
+        <h3 class="mb-2">60-этажный небоскрёб задумали построить на берегу Оби в Новосибирске</h3>
+
+        <p><i class="text-body-secondary">Небоскрёб в квартале «Чернышевский» рядом с Димитровским мостом запланировала новосибирская компания из холдинга «СибирьИнвест».</i></p>
+
+        <img src="../images/news-2.jpg" class="d-block rounded-lg-5 rounded-3 mb-3 w-100" alt="...">
+
+        <p>
+          Жилое здание в 60 этажей намерена построить компания «Альгеба». Она возводит квартал «Чернышевский» в границах улиц Владимировской, Понтонной и Чернышевского спуска.
+        </p>
+
+        <p>Это будет второй проект небоскрёба такой высоты в нашем городе. Первый совместно реализуют компании «СМСС» и «ВербаКапитал». Комплекс с двумя башнями, одна из которых высотой 180 метров, должен появиться рядом со станцией метро «Октябрьская». Он станет второй очередью ЖК «Чикаго», состоящего из двух 100-метровых «свечек».</p>
+
+        <p>
+          Пять лет назад «СибирьИнвест» заявляла о планах строительства 150-метрового жилого дома на пересечении Ипподромской и Октябрьской магистралей. Однако пока к реализации идеи не подошли. У застройщика был ещё один амбициозный проект — бизнес-центр высотой около 100 метров на углу Красного проспекта и Колыванской. Холдинг даже получил разрешение на строительство, однако в итоге в этом месте появилось пятиэтажное административное здание с оригинальным архитектурным решением.
+        </p>
+
+        <p>
+          И всё же «СибирьИнвест» решила не отказываться от идеи строительства небоскрёба в Новосибирске и вышла к мэрии с предложением поставить высотку на правом берегу Оби в квартале «Чернышевский». Эксперты градостроительного совета положительно оценили амбициозную задумку.
+        </p>
+
+        <p>
+          По словам члена градсовета, архитектора Игоря Поповского, при проектировании такого доминирующего объекта необходимо смотреть речной фасад — то есть насколько гармонично город будет выглядеть с воды.
+        </p>
+      </div>
+    </div>
+  </div>
+</main>
+
+<footer class="py-2 mt-4 border-top">
+  <div class="d-flex container flex-column">
+    <div class="mb-2">
+      Сайт был создан с помощью фреймворка
+    </div>
+    <div>
+      <a href="https://getbootstrap.com/" class="footer-logo text-black text-decoration-none">
+        <i class="bi bi-bootstrap-fill purple-color"></i> Bootstrap 5
+      </a>
+    </div>
+  </div>
+</footer>
 </body>
 </html>

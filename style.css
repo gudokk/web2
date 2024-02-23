@@ -21,3 +21,20 @@ h1, h2, h3, h4, h5, h6 {
   background-color: var(--bs-white);
   animation: .3s ease-in-out;
 }
+
+.purple-color {
+  color: rebeccapurple;
+}
+
+.footer-logo {
+  font-size: 1.1rem;
+  font-weight: 500;
+
+  @media (min-width: 768px) {
+    font-size: 1.5rem;
+  }
+}
+
+.w-fit-content {
+  width: fit-content !important;
+}

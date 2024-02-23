@@ -4,8 +4,10 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Новости</title>
+  <link href="../logos/favicon.png" rel="icon">
   <link href="../style.css" rel="stylesheet">
 </head>
+
 <body>
 <div class="container">
   <header class="border-bottom lh-1 py-3">
@@ -15,12 +17,14 @@
       </div>
     </div>
   </header>
+</div>
 
-  <div class="nav-scroller py-1 mb-3 border-bottom">
-    <nav class="nav nav-underline justify-content-between">
+<div class="container sticky-top">
+  <div class="nav-scroller bg-white py-1 mb-3 border-bottom">
+    <nav class="nav nav-underline justify-content-between px-1">
       <a class="nav-item nav-link link-body-emphasis" href="../index.html">Главная страница</a>
-      <a class="nav-item nav-link link-body-emphasis active" href="contacts.html">О нас</a>
       <a class="nav-item nav-link link-body-emphasis" href="news.html">Новости</a>
+      <a class="nav-item nav-link link-body-emphasis active" href="contacts.html">Контакты</a>
     </nav>
   </div>
 </div>
@@ -30,19 +34,41 @@
     <h3 class="display-6 fst-italic text-center">Контактная информация</h3>
   </div>
 
+  <nav aria-label="breadcrumb">
+    <ol class="breadcrumb breadcrumb-custom overflow-hidden text-center rounded-3">
+      <li class="breadcrumb-item active">
+        <a class="link-body-emphasis fw-semibold text-decoration-none" href="../index.html">
+          <i class="bi bi-house"></i>
+          Главная страница
+        </a>
+      </li>
+      <li class="breadcrumb-item active" aria-current="page">
+        Контакты
+      </li>
+    </ol>
+  </nav>
+
   <div class="row mb-2">
     <div class="col-md-6">
       <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
-        <div class="col p-4 d-flex flex-column position-static">
-          <strong class="d-inline-block mb-2 text-primary-emphasis text-center">Гудкова Мария</strong>
+        <div class="col p-4 d-flex flex-column">
+          <strong class="d-inline-block mb-2 text-center">
+            <a href="mailto:pm13.gudkova@gmail.com" class="text-primary-emphasis text-decoration-none">
+              Гудкова Мария
+            </a>
+          </strong>
           <img src="../logos/masha.jpeg" class="rounded float-end img-thumbnail " alt="...">
         </div>
       </div>
     </div>
     <div class="col-md-6">
       <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
-        <div class="col p-4 d-flex flex-column position-static">
-          <strong class="d-inline-block mb-2 text-primary-emphasis text-center">Ватлин Илья</strong>
+        <div class="col p-4 d-flex flex-column">
+          <strong class="d-inline-block mb-2 text-center">
+            <a href="mailto:pm13.vatlin@gmail.com" class="text-primary-emphasis text-decoration-none">
+              Ватлин Илья
+            </a>
+          </strong>
           <img src="../logos/ilya.jpg" class="rounded float-end img-thumbnail " alt="...">
         </div>
       </div>
@@ -50,14 +76,16 @@
   </div>
 </main>
 
-<footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
-  <div class="col-md-4 d-flex align-items-center">
-    <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
-      <svg class="bi" width="30" height="24">
-        <use xlink:href="#bootstrap"/>
-      </svg>
-    </a>
-    <span class="mb-3 mb-md-0 text-body-secondary">&copy; 2024 NSTU</span>
+<footer class="py-2 mt-4 border-top">
+  <div class="d-flex container flex-column">
+    <div class="mb-2">
+      Сайт был создан с помощью фреймворка
+    </div>
+    <div>
+      <a href="https://getbootstrap.com/" class="footer-logo text-black text-decoration-none">
+        <i class="bi bi-bootstrap-fill purple-color"></i> Bootstrap 5
+      </a>
+    </div>
   </div>
 </footer>
 </body>
