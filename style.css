@@ -1,4 +1,40 @@
+@import "styles/bootstrap.css";
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css");
+
 h1, h2, h3, h4, h5, h6 {
-    font-family: "Playfair Display", Georgia, "Times New Roman", serif/*rtl:Amiri, Georgia, "Times New Roman", serif*/;
+ font-family: "Playfair Display", Georgia, "Times New Roman", serif
+}
+
+.banner-wrapper_two {
+ grid-template-columns: 1fr;
+
+ @media (min-width: 768px) {
+  grid-template-columns: repeat(2, 1fr);
+ }
+}
+
+.banner-flying {
+ background-color: var(--bs-gray-100);
+}
+
+.banner-flying:hover {
+  background-color: var(--bs-white);
+  animation: .3s ease-in-out;
+}
+
+.purple-color {
+  color: rebeccapurple;
+}
+
+.footer-logo {
+  font-size: 1.1rem;
+  font-weight: 500;
+
+  @media (min-width: 768px) {
+    font-size: 1.5rem;
   }
- 
+}
+
+.w-fit-content {
+  width: fit-content !important;
+}
