@@ -5,12 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6e5452cd-a9e4-4a21-9206-1bade930a1f8" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/contacts.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/contacts.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/news.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/news.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/news1.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/news1.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/news2.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/news2.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/news3.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/news3.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/news4.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/news4.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +22,9 @@
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
@@ -45,6 +48,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "run.code.analysis.last.selected.profile": "pProject Default",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -58,7 +62,7 @@
       <updated>1708661765580</updated>
       <workItem from="1708661766675" duration="549000" />
       <workItem from="1708662337766" duration="1788000" />
-      <workItem from="1709114292705" duration="8661000" />
+      <workItem from="1709114292705" duration="8847000" />
     </task>
     <servers />
   </component>
